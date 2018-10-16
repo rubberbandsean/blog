@@ -1,0 +1,16 @@
+baseURL = "https://rubberbandsean.github.io"
+languageCode = "zh-cn"
+title = "My New Hugo Site"
+theme = "hugo-paper"
+
+[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = "rubberbandsean"              # Your GitHub ID
+    repo = "comments"               # The repo to store comments
+    clientId = "9551a17d12941d908b28"           # Your client ID
+    clientSecret = "098894e8e2be8761a01e207b6880d2c54ef60698"       # Your client secret
+
+#每次提交博文的时候，请务必记得初始化改博文的评论，否则读者无法进行评论
+#所谓初始化其实就是在你的博文下面用自己的Github账号登陆之后，会出现一个Initialize Comments字样的按钮，点击该按钮完成初始化。改初始化其实就是在你的Github repo里面针对这篇博文生成一个新的Issue。
+
+paginate = 15               # 首页每页显示的文章数
+archive-paginate = 50       # 归档、标签、分类每页显示的文章数目
